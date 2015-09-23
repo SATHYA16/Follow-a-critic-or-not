@@ -1,16 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed May 27 19:18:08 2015
-
-@author: Subu Ganesh
+Description: 
 """
 
 import urllib2
 import re
 import string
-
-
-
 
 for alphabet in range(1,3):#list(string.ascii_lowercase):
     criticsListURL = 'http://www.rottentomatoes.com/critics/authors?view=3&letter=a'#+alphabet
